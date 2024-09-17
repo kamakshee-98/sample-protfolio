@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--font awesome icon link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--style sheet link-->
+  <link rel="stylesheet" href="style.css" />
+  <title>Kamakshee Portfolio</title>
+</head>
+
+<body>
+
+  <!--header section-->
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">PORTFOLIO</a></div>
+      <label for="check" class="checkbox">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#section1">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--home section-->
+  <section class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>Kamakshee Manikandan</span> <br>
+          <span>W</span>EB <span>D</span>EVELOPER
+        </h1>
+        <p class="description">
+          Welcome to my web developer portfolio! I'm Kamakshee, a skilled and
+          creative web developer with a passion for creating beautiful,
+          responsive, and user-friendly websites. 
+        </p>
+        <div class="action__btns">
+          <button class="hire__me" id="downloadBtn">Download CV</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="images/pro.jpg" alt="profile" />
+      </div>
+    </div>
+  </section>
+
+  <!--About section-->
+  <section id="section1">
+    <div class="container">
+      <div class="about">
+        <div class="about-image">
+          <img src="images/pro1.jpg" alt="image" class="img">
+        </div>
+        <div class="about-content">
+          <h2>About us</h2>
+          <p>I'm introducing myself as a candidate for the Full Stack Developer position. I received my MCA
+            post-graduation from Madras Christian College. Because of my vast education, I am convinced that I can
+            function as a Full Stack Developer at your organization.
+            <br>The Full Stack Developer specialization provided by The internship program Education helps me develop,
+            test, and improve my Full Stack Developer skills.
+            <br>I learnt HTML, CSS, Bootstrap, Javascript, Node and Express, React, Mysql, and MongoDB during this
+            six-month program through in-depth lectures, course modules, real-world projects, frequent vivas, and live
+            classrooms.
+            My passion in the profession and drive to achieve in this vocation have been greatly influenced by my
+            personality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Skills Section-->
+  <section id="skills">
+    <div class="container1">
+      <div class="card-container">
+        <div class="card">
+          <img src="images/html.png" alt="html">
+          <div class="card-content">
+            <h3>HTML</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/css.png" alt="css">
+          <div class="card-content">
+            <h3>CSS</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/bootstrap.png" alt="boot">
+          <div class="card-content">
+            <h3>Bootstrap</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/js.png" alt="js">
+          <div class="card-content">
+            <h3>Javascript</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/react.png" alt="react">
+          <div class="card-content">
+            <h3>React</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/node.jpg" alt="node">
+          <div class="card-content">
+            <h3>Node & Express.JS</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/mysql.jpg" alt="sql">
+          <div class="card-content">
+            <h3>MySQL</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/mongo.png" alt="mongodb">
+          <div class="card-content">
+            <h3>MongoDB</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/github.png" alt="github">
+          <div class="card-content">
+            <h3>Github</h3>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!--Projects-->
+  <section id="project">
+    <div class="container2">
+      <div class="project-cards">
+        <div class="project-card">
+          <h2>Twitter Clone</h2>
+          <img src="images/twitter clone.jpg" class="img3" alt="logo">
+          <p>Twitter Clone is an social media app.
+            In this app, the user can add pictures, add tweet, like, unlike, follow, unfollow and retweet.
+          </p>
+          <button onclick="redirectToGitHub('https://github.com/kamakshee-98/project')"><a href="#">Github
+              link</a></button>
+        </div>
+
+        <div class="project-card">
+          <h2>E-Commerce</h2>
+          <img src="images/e-comm.jpg" class="img3" alt="logo">
+          <p>E-Commerce is a website which is created using HTML, CSS, JS, and Bootstrap. The website is responsive and
+            all the page.
+          </p>
+          <button onclick="redirectToGitHub('https://github.com/kamakshee-98/Front-end-using-HTML-CSS')"><a
+              href="#">Github link</a></button>
+
+        </div>
+
+        <div class="project-card">
+          <h2>Reactogram</h2>
+          <img src="images/reactogram.png" class="img3" alt="logo">
+          <p>Reactogram is an social media app. In this app,
+            the user can add pictures, like, unlike, follow, unfollow.
+            </p>
+          <button onclick="redirectToGitHub('https://github.com/kamakshee-98/Reactogram')"><a href="#">Github
+              link</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--contact us-->
+  <section id="contact">
+    <div class="container3">
+      <div class="contact_info">
+        <p> <i class="fa-solid fa-phone"></i>+91 9952923433</p>
+        <p> <i class="fa-solid fa-envelope"></i>kamakshee98@gmail.com</p>
+        <p> <i class="fa-solid fa-address-card"></i>No.15/25, Vedha nagar 3rd street, <br>Chinmaya nagar, Chennai- 600
+          092. </p>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer class="footer">
+    <p>&copy; developed by kamakshee.</p>
+  </footer>
+
+  <!--JS link-->
+  <script src="script.js"></script>
+</body>
+
+</html>
